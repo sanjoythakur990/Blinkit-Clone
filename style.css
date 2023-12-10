@@ -189,6 +189,7 @@ td{
     }
     #footer-links{
         margin-bottom: 15px;
+        width: 95%;
     }
     .footer-r-1{
         flex-direction: column !important;
