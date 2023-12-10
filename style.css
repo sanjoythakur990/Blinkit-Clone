@@ -154,3 +154,55 @@ td{
 #categories-section{
     margin-bottom: 33px;
 }
+@media screen and (max-width: 480px){
+    nav{
+        flex-direction: column !important;
+        padding: 10px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    #hero-section{
+        display: none !important;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .nav-search{
+        width: 90%;
+    }
+    .yoyo{
+        display: inline-block;
+        margin: auto;
+        width: 90%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .footer-r-3{
+        text-align: justify;
+    }
+    .footer-r-2{
+        flex-direction: column !important;
+    }
+    #footer-r2-c1{
+        width: 90vw !important;
+        margin-bottom: 15px;
+    }
+    #footer-links{
+        margin-bottom: 15px;
+    }
+    .footer-r-1{
+        flex-direction: column !important;
+    }
+    #footer-table-1{
+        flex: 1;
+    }
+    #footer-table-1>h3, #footer-table-2>h3{
+        text-align: center;
+    }
+    #footer-table-2{
+        flex: 1;
+    }
+    td{
+        text-align: center;
+    }
+}
